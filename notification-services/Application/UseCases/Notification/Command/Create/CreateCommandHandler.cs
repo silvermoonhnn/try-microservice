@@ -58,13 +58,6 @@ namespace notification_services.Application.UseCases.Notification.Command.Create
             };
         }
 
-        // public async Task<List<UserEn>> GetUserData()
-        // {
-        //     var client = new HttpClient();
-        //     var data = await client.GetStringAsync("http://user-service/user");
-        //     return JsonConvert.DeserializeObject<List<UserEn>>(data);
-        // }
-
         public async Task SendMail(string from, string to, string subject, string body)
         {
             var client = new SmtpClient("smtp.mailtrap.io", 2525)
