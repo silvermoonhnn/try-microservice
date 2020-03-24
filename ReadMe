@@ -3,3 +3,4 @@
 - docker hub :
   https://hub.docker.com/repository/docker/hannaafiah/notification-microservice
   https://hub.docker.com/repository/docker/hannaafiah/payment-microservice
+  https://hub.docker.com/repository/docker/hannaafiah/nginx-microservice
